@@ -1,1 +1,198 @@
+<style>
+{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
 
+  body{
+  font-style:normal;
+}
+
+  h1{
+    font-style: normal;
+    Text-align:center;
+    Margin-bottom:50px;
+  }
+
+.container{
+  width:100%;
+}
+
+.col-dk-4 {
+  position:relative;
+  top:0;
+  background-color:grey;
+  margin:15px;
+  padding:55px;
+  border: 3px solid black;
+}
+
+.Chicken{
+  position:absolute;
+  top:0;
+  right:0px;
+  padding:2px 70px;
+  border-left:2px solid black;
+  border-bottom:2px solid black;
+  background-color:lightpink;
+}
+.ingredients{
+  margin-top:18px;
+  text-align:justify;
+  font-size:100%;
+}
+
+.Beef{
+  position:absolute;
+  top:0;
+  right:0px;
+  padding:2px 70px;
+  border-left:2px solid black;
+  border-bottom:2px solid black;
+  background-color:red;
+}
+
+.Sushi{
+  position:absolute;
+  top:0;
+  right:0px;
+  padding:2px 70px;
+  border-left:2px solid black;
+  border-bottom:2px solid black;
+  background-color:green;
+}
+
+}
+/********** Desktop **********/
+@media (min-width: 992px){
+  .col-dk-1, .col-dk-2, .col-dk-3, .col-dk-4, .col-dk-5, .col-dk-6, .col-dk-7, .col-dk-8, .col-dk-9, .col-dk-10, .col-dk-11, .col-dk-12 {
+    float: left;  
+  }
+  .col-dk-1 {
+    width: 8.33%;
+  }
+  .col-dk-2 {
+    width: 16.66%;
+  }
+  .col-dk-3 {
+    width: 25%;
+  }
+  .col-dk-4 {
+    width: 33.33%;
+  }
+  .col-dk-5 {
+    width: 41.66%;
+  }
+  .col-dk-6 {
+    width: 50%;
+  }
+  .col-dk-7 {
+    width: 58.33%;
+  }
+  .col-dk-8 {
+    width: 66.66%;
+  }
+  .col-dk-9 {
+    width: 74.99%;
+  }
+  .col-dk-10 {
+    width: 83.33%;
+  }
+  .col-dk-11 {
+    width: 91.66%;
+  }
+  .col-dk-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-dk-1, .col-dk-2, .col-dk-3, .col-dk-4, .col-dk-5, .col-dk-6, .col-dk-7, .col-dk-8, .col-dk-9, .col-dk-10, .col-dk-11, .col-dk-12 {
+    float: left;  
+  }
+  .col-dk-1 {
+    width: 8.33%;
+  }
+  .col-dk-2 {
+    width: 16.66%;
+  }
+  .col-dk-3 {
+    width: 25%;
+  }
+  .col-dk-4 {
+    width: 33.33%;
+  }
+  .col-dk-5 {
+    width: 41.66%;
+  }
+  .col-dk-6 {
+    width: 50%;
+  }
+  .col-dk-7 {
+    width: 58.33%;
+  }
+  .col-dk-8 {
+    width: 66.66%;
+  }
+  .col-dk-9 {
+    width: 74.99%;
+  }
+  .col-dk-10 {
+    width: 83.33%;
+  }
+  .col-dk-11 {
+    width: 91.66%;
+  }
+  .col-dk-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile **********/
+@media (max-width: 767px){
+   .col-dk-1, .col-dk-2, .col-dk-3, .col-dk-4, .col-dk-5, .col-dk-6, .col-dk-7, .col-dk-8, .col-dk-9, .col-dk-10, .col-dk-11, .col-dk-12 {
+    float: left;  
+  }
+  .col-dk-1 {
+    width: 8.33%;
+  }
+  .col-dk-2 {
+    width: 16.66%;
+  }
+  .col-dk-3 {
+    width: 25%;
+  }
+  .col-dk-4 {
+    width: 33.33%;
+  }
+  .col-dk-5 {
+    width: 41.66%;
+  }
+  .col-dk-6 {
+    width: 50%;
+  }
+  .col-dk-7 {
+    width: 58.33%;
+  }
+  .col-dk-8 {
+    width: 66.66%;
+  }
+  .col-dk-9 {
+    width: 74.99%;
+  }
+  .col-dk-10 {
+    width: 83.33%;
+  }
+  .col-dk-11 {
+    width: 91.66%;
+  }
+  .col-dk-12 {
+    width: 100%;
+  }
+}
+
+
+</style>
+</body>
